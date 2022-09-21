@@ -80,5 +80,12 @@ WE shall be creating the infrastructure as shown below
 ![create rtb-public](./images/private-rtb1.JPG)
 
 ![create rtb-public](./images/private-rtb2.JPG)
+---
 
+#### Edit subnet associations for the private subnet. No need to add data laya for security.
+
+![create rtb-public](./images/edit-subnet-associations-private.JPG)
+---
+#### All subnet associations
+![create rtb-public](./images/all-subnet-associations.JPG)
 
