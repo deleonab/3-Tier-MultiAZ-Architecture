@@ -77,4 +77,8 @@ WE shall be creating the infrastructure as shown below
 - Target is NAT-gw
 
 
+![create rtb-public](./images/private-rtb1.JPG)
+
+![create rtb-public](./images/private-rtb2.JPG)
+
 
