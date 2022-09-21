@@ -4,7 +4,7 @@ WE shall be creating the infrastructure as shown below
 Step 1 - Create VPC named ACME-vpc
 ![AWS Architecture](./images/vpc-create.JPG)
 ---
-![AWS Architecture](./images/vpc-created.JPG)
+
 
 
 Step 2 - Create Subnets in ACME-vpc
@@ -19,3 +19,6 @@ Step 2 - Create Subnets in ACME-vpc
 - ACME-private-web-2
 - ACME-private-data-1
 - ACME-private-data-2
+---
+![subnets createde](./images/subnets-created.JPG)
+
