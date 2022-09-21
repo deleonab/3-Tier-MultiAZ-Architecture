@@ -45,7 +45,7 @@ WE shall be creating the infrastructure as shown below
 - With route table selected, go to edit routes 
 ![create rtb-public](./images/edit-routes.JPG)
 - Create route to internet gateway 0.0.0.0/0 for all traffic
-![create rtb-public](./images/route-added-igw.JPG
+![create rtb-public](./images/route-added-igw.JPG)
 ---
 
 
