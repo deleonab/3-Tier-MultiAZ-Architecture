@@ -49,11 +49,12 @@ WE shall be creating the infrastructure as shown below
 ---
 
 
-#### Step 6- Associate Public Subnets with Internet Gateway
+#### Step 6- Associate Public Subnets to the route table
 - Go to edit subnet associations and select the public subnets then click on save associations
 ![create rtb-public](./images/edit-subnet-associations.JPG)
 
-
+---
+#### Create a NAT Gateway in the public subnet so that servers in the private subnet can reach the internet
 
 
 
