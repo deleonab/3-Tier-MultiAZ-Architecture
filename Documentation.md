@@ -79,13 +79,14 @@ WE shall be creating the infrastructure as shown below
 
 ![create rtb-public](./images/private-rtb1.JPG)
 
-
+#### Step 9 - Create a route and point to the NAT gateway
 ---
 
-#### Edit subnet associations for the private subnet. No need to add data laya for security.
+#### Step 10 - Edit subnet associations for the private subnet. Associate compute and proxy layers
 
 ![create rtb-public](./images/edit-subnet-associations-private.JPG)
 ---
 #### All subnet associations
 ![create rtb-public](./images/all-subnet-associations.JPG)
 
+####
