@@ -25,13 +25,13 @@ WE shall be creating the infrastructure as shown below
 ---
 #### Step 3 - Create Internet Gateway for ACME-vpc named ACME-igw
 
-Create Internet Gateway ACME-igw
+- Create Internet Gateway ACME-igw
 ![IG created](./images/igw-created.JPG)
 
-Attach Internet Gateway ACME-igw to ACME-vpc
+- Attach Internet Gateway ACME-igw to ACME-vpc
 ![IG attach](./images/igw-attaching.JPG)
 
-Successfully attached
+- Successfully attached
 ![IG attached](./images/igw-attached.JPG)
 
 
