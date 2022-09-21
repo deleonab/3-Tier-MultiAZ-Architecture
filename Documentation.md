@@ -11,3 +11,11 @@ Step 2 - Create Subnets in ACME-vpc
 - Subnets are private by default
 - We shall create 2 public subnets and 6 private ones. 1 private and 3 private in each AZ (eu-west-2a and eu-west-2b)
 
+- ACME-public-bastion-1  
+- ACME-public-bastion-2
+- ACME-private-proxy-1
+- ACME-private-proxy-2
+- ACME-private-web-1
+- ACME-private-web-2
+- ACME-private-data-1
+- ACME-private-data-2
