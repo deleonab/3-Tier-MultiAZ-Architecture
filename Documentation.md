@@ -37,7 +37,17 @@ WE shall be creating the infrastructure as shown below
 ![IG attached](./images/igw-attached.JPG)
 
 ---
-#### Step 5 - Create route table for public subnet to rech the internet through the internet gateway ACME-igw
+#### Step 5 - Create route table for public subnet to reach the internet through the internet gateway ACME-igw
+- Create route table ACME-rtb-internet
+
+![create rtb-public](./images/route-table-create-internet-public.JPG)
+---
+- With route table selected, go to edit routes 
+![create rtb-public](./images/edit-routes.JPG)
+- Create route to internet gateway 0.0.0.0/0 for all traffic
+![create rtb-public](./images/route-added-igw.JPG
+---
+
 
 
 
