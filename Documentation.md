@@ -70,5 +70,11 @@ WE shall be creating the infrastructure as shown below
 ![create rtb-public](./images/nat-gateway2.JPG)
 
 
+#### Step 8 - Creat route table for Private Subnet
+
+- Create Route table
+- Edit route
+- Target is NAT-gw
+
 
 
