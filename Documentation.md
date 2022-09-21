@@ -54,7 +54,20 @@ WE shall be creating the infrastructure as shown below
 ![create rtb-public](./images/edit-subnet-associations.JPG)
 
 ---
-#### Step 7 - Create a NAT Gateway in the public subnet so that servers in the private subnet can reach the internet
+#### Step 7a - Create Elastic IP for NAT Gateway
+
+- Create Elastic IP 
+
+
+#### Step 7b - Create a NAT Gateway in the public subnet so that servers in the private subnet can reach the internet
+
+- Create NAT Gateway
+- Allocate IP Address
+- Attach to public Subnet 1
+
+![create rtb-public](./images/nat-gateway.JPG)
+
+![create rtb-public](./images/nat-gateway2.JPG)
 
 
 
