@@ -9,5 +9,5 @@ Step 1 - Create VPC named ACME-vpc
 
 Step 2 - Create Subnets in ACME-vpc
 - Subnets are private by default
-- We shall create 2 public subnets and 6 private ones
+- We shall create 2 public subnets and 6 private ones. 1 private and 3 private in each AZ (eu-west-2a and eu-west-2b)
 
