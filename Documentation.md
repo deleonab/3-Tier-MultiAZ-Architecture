@@ -89,4 +89,5 @@ WE shall be creating the infrastructure as shown below
 #### All subnet associations
 ![create rtb-public](./images/all-subnet-associations.JPG)
 
-####
+#### Step 11 - Create security group for Bastion. Only allow Devops Engineers to connect to server from host machine 92.40.178.36
+![create sg  Bastion](./images/bastion-sg.JPG)
