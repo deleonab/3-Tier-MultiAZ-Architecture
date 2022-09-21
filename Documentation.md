@@ -28,10 +28,17 @@ WE shall be creating the infrastructure as shown below
 - Create Internet Gateway ACME-igw
 ![IG created](./images/igw-created.JPG)
 
+#### Step 4 - Attach Internet Gateway ACME-igw to ACME-vpc
+
 - Attach Internet Gateway ACME-igw to ACME-vpc
 ![IG attach](./images/igw-attaching.JPG)
 
 - Successfully attached
 ![IG attached](./images/igw-attached.JPG)
+
+---
+#### Step 5 - Create route table for public subnet to rech the internet through the internet gateway ACME-igw
+
+
 
 
