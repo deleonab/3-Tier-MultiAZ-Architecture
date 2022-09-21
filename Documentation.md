@@ -102,3 +102,7 @@ WE shall be creating the infrastructure as shown below
 
 #### Step 14 - Create an external facing load balancer
 
+- We need to create our target group first
+#### Create Target Groups (Instances) which will be part of our autoscaling group
+
+
