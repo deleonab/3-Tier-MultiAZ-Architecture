@@ -94,3 +94,7 @@ WE shall be creating the infrastructure as shown below
 #### Step 12 - Create security group for external load balancer called ACME-ext-alb-sg
 - Allow port 80 and 443
 ![create sg  Bastion](./images/ext-alb-sg.JPG)
+---
+#### Step 13 - Create security group for ALB to talk to Nginx server
+
+![create sg  Bastion](./images/nginx-sg.JPG)
