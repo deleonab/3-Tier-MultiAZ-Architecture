@@ -97,4 +97,8 @@ WE shall be creating the infrastructure as shown below
 ---
 #### Step 13 - Create security group for ALB to talk to Nginx server
 
-![create sg  Bastion](./images/nginx-sg.JPG)
+![create sg  Bastion](./images/nginx-sg.JPG) 
+---
+
+#### Step 14 - Create an external facing load balancer
+
