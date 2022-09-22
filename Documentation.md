@@ -174,3 +174,13 @@ deles@DESKTOP-PURLK18 MINGW64 ~/Downloads
 $ ssh-add $mykey
 Identity added: ACME-keypair.pem (ACME-keypair.pem)
 ```
+```
+ssh -Ai $mykey ubuntu@18.130.56.49
+```
+```
+ubuntu@ip-10-0-2-5:~$ ssh ec2-user@10.0.3.40                                                                                                                        
+The authenticity of host '10.0.3.40 (10.0.3.40)' can't be established.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+[ec2-user@ip-10-0-3-40 ~]$ 
+```
+### Successfully connected to the Nginx server
