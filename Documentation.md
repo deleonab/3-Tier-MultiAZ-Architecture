@@ -107,4 +107,13 @@ WE shall be creating the infrastructure as shown below
 
 ![Target Nginx](./images/target-group-nginx.JPG)
 
+- create load balancer ACME-ext-alb
+
+- listener forwards traffic from port 80 to nginx target group
+### 
+--- 
+
+![create ext alb](./images/ext-lb-listener.JPG)
+
+
 
