@@ -158,4 +158,19 @@ WE shall be creating the infrastructure as shown below
 ---
 
 #### We can now SSH into the bastion once it has a PUBLIC IP address
+- Best to SSH using pem as a variable
 
+![create ext alb](./images/addsshkey.JPG)
+
+```
+deles@DESKTOP-PURLK18 MINGW64 ~/Downloads
+$ mykey=ACME-keypair.pem
+
+deles@DESKTOP-PURLK18 MINGW64 ~/Downloads
+$ eval $(ssh-agent)
+Agent pid 1147
+
+deles@DESKTOP-PURLK18 MINGW64 ~/Downloads
+$ ssh-add $mykey
+Identity added: ACME-keypair.pem (ACME-keypair.pem)
+```
