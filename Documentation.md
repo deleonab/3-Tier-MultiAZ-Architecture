@@ -132,3 +132,8 @@ WE shall be creating the infrastructure as shown below
 
 
 #### Step 17 - Create Autoscaling group and associate with launch template
+![create ext alb](./images/asgnginx1.JPG)
+![create ext alb](./images/asgnginx2.JPG)
+![create ext alb](./images/asgnginx3.JPG)
+![create ext alb](./images/asgnginx4.JPG)
+![create ext alb](./images/asgnginx5.JPG)
