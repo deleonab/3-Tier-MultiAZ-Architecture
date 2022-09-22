@@ -128,3 +128,4 @@ WE shall be creating the infrastructure as shown below
 ![create ext alb](./images/Nginxlaunchtemp4.JPG)
 ![create ext alb](./images/Nginxlaunchtemp4.JPG)
 
+
