@@ -113,7 +113,12 @@ WE shall be creating the infrastructure as shown below
 ### 
 --- 
 
+
 ![create ext alb](./images/ext-lb-listener.JPG)
+
+
+#### The autoscaling grou will require a launch template tp provision our instances or resources
+- I will now create a launch Template for our Nginx servers
 
 
 
