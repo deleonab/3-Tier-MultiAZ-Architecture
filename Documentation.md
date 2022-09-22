@@ -157,4 +157,5 @@ WE shall be creating the infrastructure as shown below
 ![create ext alb](./images/autoassign-ip.JPG)
 ---
 
+#### We can now SSH into the bastion once it has a PUBLIC IP address
 
