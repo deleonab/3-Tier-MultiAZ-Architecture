@@ -131,3 +131,4 @@ WE shall be creating the infrastructure as shown below
 ![create ext alb](./images/Nginxlaunchtemp4.JPG)
 
 
+#### Step 17 - Create Autoscaling group and associate with launch template
