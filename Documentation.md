@@ -142,3 +142,7 @@ WE shall be creating the infrastructure as shown below
 ![create ext alb](./images/asginstances.JPG)
 ---
 #### Step 18 - Create launch template for Bastion which is in public subnet
+![create ext alb](./images/autoscalingbastion1.JPG)
+![create ext alb](./images/autoscalingbastion2.JPG)
+![create ext alb](./images/autoscalingbastion3.JPG)
+![create ext alb](./images/autoscalingbastion4.JPG)
