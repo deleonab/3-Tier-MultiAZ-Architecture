@@ -122,9 +122,9 @@ WE shall be creating the infrastructure as shown below
 - I will now create a launch Template for our Nginx servers
 #### Step 16 - Create launch Template for Nginx (Use Red Hat Linux for this)
 
-![create ext alb](./images/launchtemp1.JPG)
-![create ext alb](./images/launchtemp2.JPG)
-![create ext alb](./images/launchtemp3.JPG)
-![create ext alb](./images/launchtemp4.JPG)
-![create ext alb](./images/launchtemp4.JPG)
+![create ext alb](./images/Nginxlaunchtemp1.JPG)
+![create ext alb](./images/Nginxlaunchtemp2.JPG)
+![create ext alb](./images/Nginxlaunchtemp3.JPG)
+![create ext alb](./images/Nginxlaunchtemp4.JPG)
+![create ext alb](./images/Nginxlaunchtemp4.JPG)
 
