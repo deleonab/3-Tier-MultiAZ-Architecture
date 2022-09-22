@@ -109,6 +109,7 @@ WE shall be creating the infrastructure as shown below
 
 - create load balancer ACME-ext-alb
 
+#### Step 15 - Create listener
 - listener forwards traffic from port 80 to nginx target group
 ### 
 --- 
@@ -119,6 +120,7 @@ WE shall be creating the infrastructure as shown below
 
 #### The autoscaling grou will require a launch template tp provision our instances or resources
 - I will now create a launch Template for our Nginx servers
+#### Step 16 - Create launch Template for Nginx (Use Red Hat Linux for this)
 
 
 
