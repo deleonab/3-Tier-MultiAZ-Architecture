@@ -139,4 +139,4 @@ WE shall be creating the infrastructure as shown below
 ![create ext alb](./images/asgnginx5.JPG)
 ---
 ### ASG has launched instances successfully
-![create ext alb](./images/asginstances.JPG
+![create ext alb](./images/asginstances.JPG)
