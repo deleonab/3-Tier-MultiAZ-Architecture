@@ -146,3 +146,10 @@ WE shall be creating the infrastructure as shown below
 ![create ext alb](./images/autoscalingbastion2.JPG)
 ![create ext alb](./images/autoscalingbastion3.JPG)
 ![create ext alb](./images/autoscalingbastion4.JPG)
+
+---
+#### Instances launched by ASG's
+![create ext alb](./images/instancesbastionnginx.JPG)
+
+
+
