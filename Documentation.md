@@ -140,3 +140,5 @@ WE shall be creating the infrastructure as shown below
 ---
 ### ASG has launched instances successfully
 ![create ext alb](./images/asginstances.JPG)
+---
+#### Step 18 - Create launch template for Bastion which is in public subnet
