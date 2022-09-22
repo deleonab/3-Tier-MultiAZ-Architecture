@@ -154,4 +154,7 @@ WE shall be creating the infrastructure as shown below
 #### Our public servers i.e bastion has no public IP address. 
 - This needs to be set at the subnet level by checking enable auto-assign public IPv4 address
 
+![create ext alb](./images/autoassign-ip.JPG)
+---
+
 
