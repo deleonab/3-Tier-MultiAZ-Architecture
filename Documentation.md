@@ -120,6 +120,8 @@ WE shall be creating the infrastructure as shown below
 
 #### The autoscaling grou will require a launch template tp provision our instances or resources
 - I will now create a launch Template for our Nginx servers
+---
+
 #### Step 16 - Create launch Template for Nginx (Use Red Hat Linux for this)
 
 ![create ext alb](./images/Nginxlaunchtemp1.JPG)
