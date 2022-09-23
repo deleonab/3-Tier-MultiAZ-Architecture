@@ -200,3 +200,5 @@ sudo yum install -y dnf-utils  https://rpms.remirepo.net/enterprise/remi-release
 
 #### I UPDATED NGINX LAUNCH TEPLATE WITH  SCRIPT TO INSTALL NGINX
 #### I UPDATED ASG TO USE NE- I shut down the instance so that ASG will provision a new one with the new template
+- New Instance has Nginx Installed successfully
+![create ext alb](./images/nginxinstalled.JPG)
