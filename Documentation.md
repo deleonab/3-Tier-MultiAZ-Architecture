@@ -185,6 +185,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 [ec2-user@ip-10-0-3-40 ~]$ 
 ```
 #### Step 22-  Connect to Nginx server from bastion.  Successfully connected to the Nginx server
+
+#### Step 23 - create userdata.sh script
 ```
 
 #!/bin/bash
