@@ -197,3 +197,5 @@ sudo yum install -y dnf-utils  https://rpms.remirepo.net/enterprise/remi-release
 #### Nginx successfully installed
 #### Load balancer DNS name in browser loads nginx page
 ![create ext alb](./images/nginxinstalled.JPG)
+
+#### I UPDATED NGINX LAUNCH TEPLATE WITH  SCRIPT TO INSTALL NGINX
