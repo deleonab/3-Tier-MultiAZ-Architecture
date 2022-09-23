@@ -184,3 +184,13 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 [ec2-user@ip-10-0-3-40 ~]$ 
 ```
 ### Successfully connected to the Nginx server
+```
+
+#!/bin/bash
+sudo yum update -y
+sudo yum install -y nginx git
+sudo systemctl enable nginx
+sudo systemctl start nginx
+sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum install -y dnf-utils  https://rpms.remirepo.net/enterprise/remi-release-7.rpm
+```
