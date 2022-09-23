@@ -100,7 +100,7 @@ WE shall be creating the infrastructure as shown below
 ![create sg  Bastion](./images/nginx-sg.JPG) 
 ---
 
-#### Step 14 - Create an external facing load balancer
+#### Step 15 - Create an external facing load balancer
 
 - We need to create our target group first
 #### Create Target Groups (Instances) which will be part of our autoscaling group
@@ -109,7 +109,7 @@ WE shall be creating the infrastructure as shown below
 
 - create load balancer ACME-ext-alb
 
-#### Step 15 - Create listener
+#### Step 16 - Create listener
 - listener forwards traffic from port 80 to nginx target group
 ### 
 --- 
@@ -122,7 +122,7 @@ WE shall be creating the infrastructure as shown below
 - I will now create a launch Template for our Nginx servers
 ---
 
-#### Step 16 - Create launch Template for Nginx (Use Red Hat Linux for this)
+#### Step 17 - Create launch Template for Nginx (Use Red Hat Linux for this)
 
 ![create ext alb](./images/Nginxlaunchtemp1.JPG)
 ![create ext alb](./images/Nginxlaunchtemp2.JPG)
@@ -131,7 +131,7 @@ WE shall be creating the infrastructure as shown below
 ![create ext alb](./images/Nginxlaunchtemp4.JPG)
 
 
-#### Step 17 - Create Autoscaling group and associate with launch template
+#### Step 18 - Create Autoscaling group and associate with launch template
 ![create ext alb](./images/asgnginx1.JPG)
 ![create ext alb](./images/asgnginx2.JPG)
 ![create ext alb](./images/asgnginx3.JPG)
@@ -141,9 +141,10 @@ WE shall be creating the infrastructure as shown below
 ### ASG has launched instances successfully
 ![create ext alb](./images/asginstances.JPG)
 ---
-#### Step 18 - Create launch template for Bastion which is in public subnet
+#### Step 19 - Create launch template for Bastion which is in public subnet
 ![create ext alb](./images/autoscalingbastion1.JPG)
 ![create ext alb](./images/autoscalingbastion2.JPG)
+#### Step 20 - Create ASG for bastion
 ![create ext alb](./images/autoscalingbastion3.JPG)
 ![create ext alb](./images/autoscalingbastion4.JPG)
 
@@ -157,7 +158,7 @@ WE shall be creating the infrastructure as shown below
 ![create ext alb](./images/autoassign-ip.JPG)
 ---
 
-#### We can now SSH into the bastion once it has a PUBLIC IP address
+#### Step 21 - Connect to bastion via SSH.  We can now SSH into the bastion once it has a PUBLIC IP address
 - Best to SSH using pem as a variable
 
 ![create ext alb](./images/addsshkey.JPG)
@@ -183,7 +184,7 @@ The authenticity of host '10.0.3.40 (10.0.3.40)' can't be established.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 [ec2-user@ip-10-0-3-40 ~]$ 
 ```
-### Successfully connected to the Nginx server
+#### Step 22-  Connect to Nginx server from bastion.  Successfully connected to the Nginx server
 ```
 
 #!/bin/bash
