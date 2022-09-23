@@ -194,3 +194,6 @@ sudo systemctl start nginx
 sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 sudo yum install -y dnf-utils  https://rpms.remirepo.net/enterprise/remi-release-7.rpm
 ```
+#### Nginx successfully installed
+#### Load balancer DNS name in browser loads nginx page
+![create ext alb](./images/nginxinstalled.JPG)
