@@ -257,6 +257,10 @@ server {
 
     }
 
-
-
 }
+#### proxy_set_header Host $host; is very important or header wouldn't be sent to ALB.
+#### Before restarting nginx after edit, run test below to see if configuration is ok
+```
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok  
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+```
