@@ -211,3 +211,5 @@ sudo yum install -y dnf-utils  https://rpms.remirepo.net/enterprise/remi-release
 #### Next , I will create a domain name for our webswervers, tooloing and wordpress. This will point to the loadbalancer.It will have rules to decide where to forward the traffic.
 
 I have a domain workachoo.com in a public hosted zone in AWS.
+![create ext alb](./images/dns1.JPG)
+
