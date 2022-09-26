@@ -241,6 +241,9 @@ I have a domain workachoo.com in a public hosted zone in AWS.
 - We want to listen to the host header
 If no rules match, forward to the default tooling.app.workachoo.com
 ![create ext alb](./images/intalbrule1.JPG)
+---
+#### I created wordpress target group next
+
 
 #### We still need to get into nginx and configure it to forward the request.
 
