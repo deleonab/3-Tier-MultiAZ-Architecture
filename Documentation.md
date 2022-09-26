@@ -227,4 +227,9 @@ I have a domain workachoo.com in a public hosted zone in AWS.
 
 #### Step -  Create the target group for the internal load balancer as it will be needed when creating the load balancer.
 
+![create ext alb](./images/tooling-app-tgt.JPG)
+
 - I created the load balancer without the rules as the rules/listeners will be configured later
+![create ext alb](./images/intalb1.JPG)
+![create ext alb](./images/intalb2.JPG)
+
