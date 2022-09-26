@@ -233,3 +233,7 @@ I have a domain workachoo.com in a public hosted zone in AWS.
 ![create ext alb](./images/intalb1.JPG)
 ![create ext alb](./images/intalb2.JPG)
 
+- I viewed the created internal ALB  listener settings
+
+![create ext alb](./images/intalb3.JPG)
+
