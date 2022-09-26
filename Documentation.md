@@ -213,4 +213,7 @@ sudo yum install -y dnf-utils  https://rpms.remirepo.net/enterprise/remi-release
 I have a domain workachoo.com in a public hosted zone in AWS.
 ![create ext alb](./images/dns1.JPG)
 
-- I will create a CNAME Record to point to our loadbalancer
+- I will create a CNAME Record to point to our loadbalancer which uses a DNS name
+- An A record points to an IP address
+- A CNAME points to another record
+#### I will first create a CNAME record to resolve to our nginx proxy using the load balancer dns name
