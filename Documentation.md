@@ -237,3 +237,6 @@ I have a domain workachoo.com in a public hosted zone in AWS.
 
 ![create ext alb](./images/intalb3.JPG)
 
+- We edit the rules on the same listener at port 80.
+
+![create ext alb](./images/intalbrule1.JPG)
