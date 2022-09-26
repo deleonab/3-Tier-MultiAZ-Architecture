@@ -245,4 +245,18 @@ If no rules match, forward to the default tooling.app.workachoo.com
 #### We still need to get into nginx and configure it to forward the request.
 
 - I did an SSH into the nginx server from the bastion to edit the /etc/nginx/nginx.conf file
+- insert snippet into nginx.conf
 
+server {
+    listen 80;
+    server_name www.toolimg.app.workachoo.com;
+    location / {
+
+             proxy_pass http://internal-ACME-int-alb-190876621.eu-west-2.elb.amazonaws.com;
+             proxy_set_header Host %host;
+
+    }
+
+
+
+}
