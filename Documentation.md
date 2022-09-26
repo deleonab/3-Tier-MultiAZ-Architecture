@@ -223,3 +223,4 @@ I have a domain workachoo.com in a public hosted zone in AWS.
 ![create ext alb](./images/dns3.JPG)
 
 #### Step  - Create the security group for the internal load balancer
+![create ext alb](./images/intloadbalancer1.JPG)
