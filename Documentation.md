@@ -269,3 +269,24 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 sudo systemctl restart nginx
 ```
+```
+[ec2-user@ip-10-0-3-235 ~]$ sudo systemctl status nginx
+● nginx.service - The nginx HTTP and reverse proxy server
+   Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; vendor preset: disabled)
+   Active: active (running) since Mon 2022-09-26 17:03:57 UTC; 14s ago
+  Process: 59090 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)
+  Process: 59087 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)
+  Process: 59085 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)
+ Main PID: 59092 (nginx)
+    Tasks: 2 (limit: 4700)
+   Memory: 3.7M
+   CGroup: /system.slice/nginx.service
+           ├─59092 nginx: master process /usr/sbin/nginx
+           └─59093 nginx: worker process
+
+Sep 26 17:03:57 ip-10-0-3-235.eu-west-2.compute.internal systemd[1]: nginx.service: Succeeded.
+Sep 26 17:03:57 ip-10-0-3-235.eu-west-2.compute.internal systemd[1]: Stopped The nginx HTTP and reverse proxy server.
+Sep 26 17:03:57 ip-10-0-3-235.eu-west-2.compute.internal systemd[1]: Starting The nginx HTTP and reverse proxy server...
+Sep 26 17:03:57 ip-10-0-3-235.eu-west-2.compute.internal nginx[59087]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok      
+Sep 26 17:03:57 ip-10-0-3-235.eu-west-2.compute.internal nginx[59087]: nginx: configuration file /etc/nginx/nginx.conf test is successful 
+```
