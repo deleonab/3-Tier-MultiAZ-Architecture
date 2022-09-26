@@ -239,5 +239,7 @@ I have a domain workachoo.com in a public hosted zone in AWS.
 
 - We edit the rules on the same listener at port 80.
 - We want to listen to the host header
-If no rules match, forward to tooling.app.workachoo.com
+If no rules match, forward to the default tooling.app.workachoo.com
 ![create ext alb](./images/intalbrule1.JPG)
+
+#### We still need to get into nginx and configure it to forward the request.
