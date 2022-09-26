@@ -207,3 +207,7 @@ sudo yum install -y dnf-utils  https://rpms.remirepo.net/enterprise/remi-release
 - I shut down the instance so that ASG will provision a new one with the new template
 - New Instance has Nginx Installed successfully
 ![create ext alb](./images/nginxinstalled.JPG)
+
+#### Next , I will create a domain name for our webswervers, tooloing and wordpress. This will point to the loadbalancer.It will have rules to decide where to forward the traffic.
+
+I have a domain workachoo.com in a public hosted zone in AWS.
