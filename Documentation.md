@@ -243,3 +243,6 @@ If no rules match, forward to the default tooling.app.workachoo.com
 ![create ext alb](./images/intalbrule1.JPG)
 
 #### We still need to get into nginx and configure it to forward the request.
+
+- I did an SSH into the nginx server from the bastion to edit the /etc/nginx/nginx.conf file
+
