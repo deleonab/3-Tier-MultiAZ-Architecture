@@ -217,3 +217,7 @@ I have a domain workachoo.com in a public hosted zone in AWS.
 - An A record points to an IP address
 - A CNAME points to another record
 #### I will first create a CNAME record to resolve to our nginx proxy using the load balancer dns name
+
+---
+![create ext alb](./images/dns2.JPG)
+![create ext alb](./images/dns3.JPG)
