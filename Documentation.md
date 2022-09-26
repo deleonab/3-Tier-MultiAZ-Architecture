@@ -249,11 +249,11 @@ If no rules match, forward to the default tooling.app.workachoo.com
 
 server {
     listen 80;
-    server_name www.toolimg.app.workachoo.com;
+    server_name www.tooling.app.workachoo.com;
     location / {
 
              proxy_pass http://internal-ACME-int-alb-190876621.eu-west-2.elb.amazonaws.com;
-             proxy_set_header Host %host;
+             proxy_set_header Host $host;
 
     }
 
