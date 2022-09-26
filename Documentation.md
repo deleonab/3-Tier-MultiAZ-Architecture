@@ -213,3 +213,4 @@ sudo yum install -y dnf-utils  https://rpms.remirepo.net/enterprise/remi-release
 I have a domain workachoo.com in a public hosted zone in AWS.
 ![create ext alb](./images/dns1.JPG)
 
+- I will create a CNAME Record to point to our loadbalancer
