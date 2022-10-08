@@ -293,3 +293,5 @@ Sep 26 17:03:57 ip-10-0-3-235.eu-west-2.compute.internal systemd[1]: Starting Th
 Sep 26 17:03:57 ip-10-0-3-235.eu-west-2.compute.internal nginx[59087]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok      
 Sep 26 17:03:57 ip-10-0-3-235.eu-west-2.compute.internal nginx[59087]: nginx: configuration file /etc/nginx/nginx.conf test is successful 
 ```
+
+### Nginx successfully started
