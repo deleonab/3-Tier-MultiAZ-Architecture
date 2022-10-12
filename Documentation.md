@@ -299,3 +299,4 @@ Sep 26 17:03:57 ip-10-0-3-235.eu-west-2.compute.internal nginx[59087]: nginx: co
 
 ### Nginx successfully started
 ---
+### Architecture will be
